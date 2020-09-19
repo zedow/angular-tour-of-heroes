@@ -1,0 +1,4 @@
+<h3>Top heroes</h3>
+<a *ngFor="let hero of this.heroes" routerLink="/hero/{{ hero.id }}">
+  <h4>{{ hero.name }}</h4>
+</a>
